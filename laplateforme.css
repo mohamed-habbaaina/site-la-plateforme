@@ -1,0 +1,338 @@
+/* configuration global */
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background-color: rgb(243 243 238 / 94%);
+    font: 18px;
+    font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
+}
+/*Mise en forme du Header H 80px, display flex, */
+header{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+/*  */
+footer{
+}
+/* Supprimer le style des liens */
+a{
+    list-style: inherit;
+    color: inherit;
+    text-decoration-line: inherit;
+}
+/* Pour centrer les div */
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.trasparent{
+    color: white;
+}
+.encadrer_un_contenu{
+    border: 1px solid white;
+    padding: 5px;
+}
+/*Le menu de navigation, flex, retiré les point de la liste*/
+.nav_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none
+}
+/*Pour HOVER la liste*/
+.nav_header li:hover{
+    color: rgb(146, 146, 155);
+}
+.logo_header{
+    display: flex;
+    width: 300px;
+    align-items: center;
+}
+.logo_header img{
+    width: inherit;
+}
+#navigation{
+    width: 100%;
+}
+/*Id pour unifier la taille des icon*/
+#pt_icon{
+    width: 20px;
+	height: 20px;
+}
+#icon{
+    width: 100px;
+	height: 100px;
+}
+/*La section 1: infos acceil et photo d'etudiens*/
+.section_1{
+    display: flex;
+}
+
+.acceil_info{
+    width: 50%;
+    background-color: #336699;
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.photo_etudiens{
+    width: inherit;
+    width: 50%;
+}
+/*Le petit text pour RNCP"*/
+#RNCP{
+    font-size: 12px;
+    text-align: center;
+}
+/* Le bouton "inscription" */
+#inscription{
+    border-width: 2px;
+    border-color: #ff2063;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    padding: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ff2063;
+    text-align: center;
+}
+/* La deuxième section pour les métiers du numérique */
+.section_2{
+    background-color: rgb(243 243 238 / 94%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+
+}
+/* Pour centré les H2 */
+#section_h2{
+    text-align: center;
+    font-size: 40px;
+    color: #336699;
+    width: inherit;
+}
+/* Div specialité acceil */
+.div_section_2{
+    width: 29%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-block: 40px;
+    margin: 6%;
+    color: #336699;
+    background-color: white;
+}
+/* Id pour changer la taille police */
+#spe_tail{
+    font-size: 22px;
+}
+/* Id bouton de spécialité */
+#bouton_acceil{
+    color: white;
+    border-radius: 100px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    background-color: #ffca4b;
+}
+/* 3 eme section */
+.section_3{
+    display: flex;
+    flex-direction: column;
+}
+.div_section_3{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-block: 40px;
+    margin: 6%;
+    color: #336699;
+    background-color: white;
+    width: inherit;
+    display: flex;
+}
+.div_section_3b{
+    margin-left: 20px;
+}
+/* 2 eme bouton d'acceil */
+#bouton_acceil_2{
+    width: max-content;
+    align-self: center;
+    color: white;
+    border-radius: 100px;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    background-color: #ffca4b;
+    margin-bottom: 40px;
+}
+/* Section 4 */
+.section_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 163, 21);
+}
+/* div grand footer */
+.grand_footer{
+    display: flex;
+    background-color: #313131;
+}
+.logo_blanc{
+    width: 33%;
+}
+/* La liste des reseaux socieaux */
+.reseaux_sociaux{
+    list-style: none;
+    color: white;
+    margin: 6%;
+    padding-block: 10%;
+}
+#reseaux_socieaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+.footer_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* div grand footer */
+.petit_footer{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-inline: 10px;
+}
+.petit_footer_b{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+/* La page qui sommes nous? */
+.padding55{
+    padding-right: 55%;
+
+}
+/* Id pour agrandir l'intitulé */
+#intitul{
+    font: 40px;
+}
+/* Section Qui sommes-nous */
+.section_4{
+    background-color: rgb(255, 255, 255);
+    width: inherit;
+}
+.div_qui_sommes_nous{
+
+    display: flex;
+    padding-inline: 14%;
+    color: #7D7D7D!important;
+    margin-inline: 40px;
+    padding-bottom: 50px;
+/* ajouter un padding */
+}
+#padding_right{
+    padding-right: 80px;
+}
+/* mise en pade des logo */
+/* logo partenaires */
+.logo_partenaire{
+    width: 80%;
+}
+.logo_sans_style{
+    display: flex;
+    list-style: none;
+    padding-inline: 60px;
+}
+/* Id pour bien les deux derniere lignes */
+#logo_ligne3{
+    display: flex;
+    align-items: center;}
+ 
+/* section_5 les certifications */
+.section_5{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    padding-left: 12%;
+    color: #7D7D7D!important;
+}
+#padding_class5{
+    padding-left: 15%;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+.div_section_5{
+    width: 17%;
+}
+/* size logo */
+#size_logo{
+    width: 100%;
+}
+/* section 6 présentation */
+.section_6{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    width: 70%;
+    padding-bottom: 80px;
+}
+.div_section_6{
+    width: 20%;
+    color: #336699;
+}
+/* Formulaire de la page contact */
+#color_bleu{
+    background-color: #88c1d0!important;
+    color: white;
+    text-align-last: center;
+    color: #336699;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.div_formulaire{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 50px;
+    background-color: white;
+}
+/* Alignement de la deuxième partie de formulaire avec la première partie */
+.div2_formulaire{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+/* la partie Une autre question */
+#section_contact{
+    margin-left: 23%;
+    color: #336699;
+    padding-top: 80px;
+
+}
+/* padding pour les reseaux socieaux */
+#padd{
+    padding-left: 4%;
+}
+
